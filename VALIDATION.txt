@@ -1,0 +1,6 @@
+NATA WEBSITE VALIDATION
+index.html: OK
+styles.css: OK
+script.js: OK
+Local references missing: 0
+All local index.html references resolve.

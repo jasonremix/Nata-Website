@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nata Preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#07070b;color:#fff;font-family:Arial,sans-serif}
+main{min-height:100vh;display:grid;place-items:center;padding:30px;text-align:center;
+background:radial-gradient(circle at 70% 20%,#8d35ff33,transparent 35%),#07070b}
+.card{max-width:900px;padding:60px;border:1px solid #a83dff66;border-radius:32px;background:#111117dd;box-shadow:0 0 90px #8d35ff22}
+.logo{font-size:22px;font-weight:900;letter-spacing:.2em}.logo span{color:#b95cff}
+h1{font-size:clamp(55px,10vw,120px);line-height:.82;letter-spacing:-.08em;margin:35px 0}
+h1 em{font-style:normal;color:#c68cff}p{color:#aaa;line-height:1.7;font-size:18px}
+button{border:0;border-radius:999px;padding:16px 25px;background:linear-gradient(135deg,#c04fff,#7730ff);color:#fff;font-weight:800}
+#status{margin-top:25px;color:#c68cff;font-size:14px}
+</style></head><body><main><section class="card"><div class="logo">NATA<span>.</span></div>
+<h1>Social.<br><em>Echt.</em><br>Verbunden.</h1><p>Die nächste Generation Social. Entdecke Menschen, teile Momente und baue echte Connections.</p>
+<button id="beta">Beta-Zugang sichern →</button><div id="status"></div></section></main>
+<script>document.getElementById('beta').onclick=()=>document.getElementById('status').textContent='Nata Beta – dein Platz ist vorgemerkt.';</script>
+</body></html>
