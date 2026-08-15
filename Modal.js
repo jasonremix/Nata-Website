@@ -1,0 +1,1 @@
+export const modalMarkup = () => `<div id="modal-root"></div>`;

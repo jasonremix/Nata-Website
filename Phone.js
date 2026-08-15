@@ -1,0 +1,1 @@
+export const phone = (src, alt="Nata App") => `<div class="phone"><img src="${src}" alt="${alt}" loading="lazy"></div>`;

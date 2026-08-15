@@ -1,0 +1,1 @@
+export const eyebrow = (text) => `<span class="eyebrow">${text}</span>`;

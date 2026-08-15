@@ -1,0 +1,1 @@
+export const sectionTitle = (tag,title,text="") => `<div class="section-title reveal"><span class="eyebrow">${tag}</span><h2>${title}</h2>${text?`<p>${text}</p>`:""}</div>`;

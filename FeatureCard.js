@@ -1,0 +1,1 @@
+export const featureCard = (n,title,text,icon) => `<article class="feature-card reveal"><span class="feature-icon">${icon}</span><small>${n}</small><h3>${title}</h3><p>${text}</p></article>`;

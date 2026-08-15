@@ -1,0 +1,1 @@
+export const glow = (className="glow") => `<span class="${className}"></span>`;

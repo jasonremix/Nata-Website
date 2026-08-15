@@ -1,0 +1,1 @@
+export const button = (label, href="#", primary=true, modal="") => `<a class="btn ${primary?"primary":"ghost"}" href="${href}" ${modal?`data-modal="${modal}"`:""}>${label}<span>→</span></a>`;
