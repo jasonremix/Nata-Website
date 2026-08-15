@@ -1,0 +1,2 @@
+import { pillars } from "../data/content.js";
+export const intro = () => `<section class="intro section" id="features"><div class="container pillar-grid">${pillars.map((p,i)=>`<article class="pillar reveal" style="--d:${i*80}ms"><span>${p[0]}</span><div><h3>${p[1]}</h3><p>${p[2]}</p></div><b>↗</b></article>`).join("")}</div></section>`;

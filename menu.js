@@ -1,0 +1,1 @@
+export function initMenu(){const b=document.querySelector("[data-menu]"),n=document.querySelector("[data-nav]");b?.addEventListener("click",()=>{n.classList.toggle("open");b.setAttribute("aria-expanded",n.classList.contains("open"))});document.querySelectorAll("[data-nav-link]").forEach(a=>a.addEventListener("click",()=>n.classList.remove("open")))}

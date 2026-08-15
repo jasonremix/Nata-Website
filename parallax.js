@@ -1,0 +1,1 @@
+export function initParallax(){const items=document.querySelectorAll("[data-parallax]");if(!items.length)return;window.addEventListener("scroll",()=>{const y=scrollY*.08;items.forEach(el=>el.style.transform=`translateY(${y}px)` )},{passive:true})}

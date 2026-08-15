@@ -1,0 +1,1 @@
+export const track = (event, payload={}) => console.debug("[Nata analytics]", event, payload);

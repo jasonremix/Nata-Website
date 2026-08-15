@@ -1,0 +1,3 @@
+.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s var(--nata-ease)}
+.reveal.visible{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1!important;transform:none!important;transition:none!important}}

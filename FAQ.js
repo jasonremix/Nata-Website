@@ -1,0 +1,2 @@
+import { faqs } from "../data/content.js";
+export const faq = () => `<section class="faq section"><div class="container"><div class="section-title reveal"><span class="eyebrow">FAQ</span><h2>Du fragst.<br><em>Nata antwortet.</em></h2></div><div class="faq-list">${faqs.map(([q,a])=>`<details class="reveal"><summary>${q}<span>+</span></summary><p>${a}</p></details>`).join("")}</div></div></section>`;

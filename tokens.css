@@ -1,0 +1,12 @@
+:root {
+  --nata-black: #050507;
+  --nata-ink: #111114;
+  --nata-white: #f5f5f7;
+  --nata-gray: #86868b;
+  --nata-purple: #9d3dff;
+  --nata-lavender: #d39aff;
+  --nata-radius-xl: 44px;
+  --nata-radius-lg: 36px;
+  --nata-max: 1280px;
+  --nata-ease: cubic-bezier(.2,.8,.2,1);
+}
